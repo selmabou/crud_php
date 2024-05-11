@@ -69,7 +69,7 @@ $conn = null;
             <td><?php echo $student["email"]?></td>
             <td>
                 <button class="btn btn-info">update</button>
-                <button class="btn btn-danger">delete</button>
+                <a href="delete.php?id=<?php echo $student['id'] ?>"  >delete</a>
             </td>
         </tr>
 
